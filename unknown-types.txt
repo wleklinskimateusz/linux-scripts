@@ -1,2 +1,0 @@
-model/stl
-application/x-msdownload
