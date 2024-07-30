@@ -1,7 +1,8 @@
 import { $, Glob } from "bun";
+import { join } from "path";
 
 const HOME = process.env.HOME;
-const UNKNOWN_TYPES = `${HOME}/Documents/scripts/unknown-types.txt`;
+const UNKNOWN_TYPES = join(import.meta.dir, "unknown-types.txt");
 const DOWNLOADS_DIR = `${HOME}/Downloads`;
 
 const PACKAGES = `${DOWNLOADS_DIR}/packages`;
